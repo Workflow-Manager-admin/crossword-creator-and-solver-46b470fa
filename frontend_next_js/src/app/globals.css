@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fff;
+  --foreground: #171717;
+  --primary: #0070f3;
+  --secondary: #1a1a1a;
+  --accent: #f5a623;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+input,
+button,
+select,
+textarea {
+  outline: none;
+}
+
+input:focus,
+button:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid var(--accent);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: #f4f4f4;
+}
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 4px;
+}
