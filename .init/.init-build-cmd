@@ -1,0 +1,4 @@
+{
+    "command": "npm install && npm run lint && npm run build",
+    "working_directory": "/home/kavia/workspace/code-generation/crossword-creator-and-solver-46b470fa/frontend_next_js"
+}
